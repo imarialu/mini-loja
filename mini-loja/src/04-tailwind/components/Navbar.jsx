@@ -9,7 +9,7 @@ function Navbar(){
     return(
         <header className='bg-(--bg) fixed top-0 w-full h-[4rem] z-50'>
             <nav className='h-full flex justify-around items-center'>
-                <p className='text-[1.5rem] font-[500] font-[Grabriela]'>Book Store</p>
+                <p className='text-[1.5rem] font-[500] font-[Gabriela] text-(--color-pink)'>Book Store</p>
                 <input type="text" placeholder="Pesquisar" className='w-[500px] p-[0.5rem] border-hidden rounded-[20px] bg-(--input-nav) focus:outline-none '/>
                 <div className='h-full flex items-center justify-between gap-[1rem]'>
                     <button className='flex justify-center p-[0.4rem] border-hidden rounded-[100%] text-(--color-text-2) bg-(--bg-pink) cursor-pointer' onClick={toggleTheme}>

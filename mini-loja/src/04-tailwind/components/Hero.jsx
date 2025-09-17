@@ -5,7 +5,7 @@ function Hero(){
         <>
             <section className='w-full h-[450px] flex flex-row mb-[2rem] mt-[4rem]'>
                 <div className='w-1/2 flex items-center justify-center flex-col'>
-                    <h1 className='text-[5rem] leading-none m-0 text-center font-light mb-[1rem] font-(Gabriela)'>
+                    <h1 className='text-[5rem] leading-none m-0 text-center font-light mb-[1rem] font-[Gabriela]'>
                         Deixe-se encantar <br/>
                         por cada página
                     </h1>
