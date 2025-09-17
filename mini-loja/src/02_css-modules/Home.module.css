@@ -1,0 +1,131 @@
+.main{
+    background-color: var(--bg);
+}
+
+.infosContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    padding: 1rem 0;
+    background-color: var(--bg-pink);
+}
+
+.infos{
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    color: var(--color-text-2);
+}
+
+.infosIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.infosTexto{
+    margin-top: 0.8rem;
+}
+
+.infosTexto h3{
+    margin: 0;
+}
+
+.infosTexto p{
+    margin-top: 0.2rem;
+}
+
+/* Section dos cards dos produtos */
+
+.produtosContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.textos{
+    width: 994px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textos h1{
+    font-weight: 500;
+}
+
+.textos p{
+    font-size: 1.2rem;
+    color: var(--color-pink);
+    cursor: pointer;
+}
+
+.cardsGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+/* Media Queries do Home */
+@media screen and (max-width: 1024px) {
+    .infosContainer{
+        gap: 5rem;
+    }
+
+    .textos{
+        width: 728px;
+    }
+    
+    .cardsGrid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .infosContainer{
+        gap: 1.5rem;
+    }
+
+    .infos{
+        width: 150px;
+    }
+
+    .infosTexto h3{
+        font-size: 1rem;
+    }
+
+    .infosTexto p{
+        font-size: 0.8rem;
+    }
+
+    .textos{
+        justify-content: center;
+    }
+
+    .textos p{
+        display: none;
+    }
+
+    .cardsGrid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 481px){
+    .infosContainer{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 1.6rem;
+    }
+}

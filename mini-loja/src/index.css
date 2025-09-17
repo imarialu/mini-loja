@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    color: var(--color-text);
+    background-color: var(--bg);
+    font-family: 'Roboto';
+}
+
+:root{
+    --bg-pink: #C66879;
+    --color-pink: #C66879;
+    --color-text-pink: #C66879;
+    --bg-header: #FFFFFF;
+    --bg: #FFFFFF;
+    --bg-direitos: #444B59;
+    --color-text: #444B59;
+    --color-text-2: #FFFFFF;
+    --input-nav: #F5F5F5;
+    --bg-categoria-produto-img: rgba(198, 104, 121, 0.1);
+    --shadow: #F0F0F0;
+    --bg-skeleton: #F0F0F0;
+}
+
+.dark{
+    --bg-pink: #C66879;
+    --color-pink: #C66879;
+    --color-text-pink: #C66879;
+    --bg-header: #282829;
+    --bg: #282829;
+    --bg-direitos: #444B59;
+    --color-text: #F0F0F0;
+    --color-text-2: #282829;
+    --input-nav: #F0F0F0;
+    --bg-categoria-produto-img: rgba(198, 104, 121, 0.548);
+    --shadow: #161616;
+    --bg-skeleton: #F0F0F0;
+}

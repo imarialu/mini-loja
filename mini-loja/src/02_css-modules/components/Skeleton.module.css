@@ -1,0 +1,46 @@
+.skeletonCard{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px var(--bg-skeleton);
+}
+
+.skeletonContainerImg{
+    width: 150px;
+    height: 190px;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: var(--bg-skeleton);
+}
+
+.skeletonProduto{
+    width: 150px;
+    margin-top: 1rem;
+}
+
+.skeletonTitulo{
+    width: 150px;
+    height: 1rem;
+    border-radius: 20px;
+    background-color: var(--bg-skeleton);
+}
+
+.skeletonRating{
+    width: 100px;
+    height: 1rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    background-color: var(--bg-skeleton);
+}
+
+.skeletonPrecoButton{
+    width: 150px;
+    height: 2rem;
+    margin-top: 2.2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 15px;
+    background-color: var(--bg-skeleton);
+}

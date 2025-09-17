@@ -1,0 +1,58 @@
+.card{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px var(--shadow);
+    background-color: var(--bg);
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.containerImg{
+    width: 150px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: var(--bg-categoria-produto-img);
+}
+
+.containerImg img{
+    width: 90px;
+}
+
+.produto{
+    width: 150px;
+    margin-top: 1rem;
+}
+
+.produto h3{
+    margin: 0;
+    font-weight: 500;
+}
+
+.linha{
+    width: 100%;
+    height: 1px;
+    margin-top: 0.5rem;
+    background-color: var(--bg-pink);
+}
+
+.precoButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.4rem 0;
+}
+
+.precoButton p{
+    font-weight: 500;
+}

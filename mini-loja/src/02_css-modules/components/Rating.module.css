@@ -1,0 +1,6 @@
+.ratingContainer{
+    display: flex;
+    gap: 0.2rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+}

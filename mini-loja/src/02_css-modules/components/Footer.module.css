@@ -1,0 +1,131 @@
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-pink);
+}
+
+.footerContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerLogo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footerLogo img{
+    width: 150px;
+    height: 150px;
+    margin-left: 5rem;
+}
+
+.footerInfos{
+    width: 50%;
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--color-text-2);
+}
+
+.footerInfos h3{
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.footerInfos p{
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.sobre p{
+    cursor: pointer;
+}
+
+.sobre p:hover{
+    color: var(--color-text);
+}
+
+.direitos{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-2);
+    background-color: var(--bg-direitos);
+}
+
+/* Media Queries do Footer */
+
+@media screen and (max-width: 1024px) {
+    .footerContainer{
+        width: 100%;
+    }
+
+    .footerLogo{
+        justify-content: center;
+    }
+
+    .footerLogo img{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        height: 350px;
+    }
+
+    .footerContainer{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .footerLogo img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .footerInfos{
+        width: 100%;
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+    .footerInfos h3{
+        font-size: 1.2rem;
+    }
+
+    .footerInfos p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 481px){
+    .footer{
+        height: 550px;
+    }
+
+    .footerInfos{
+        width: 100%;
+        height: 350px;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .direitos{
+        font-size: 0.6rem;
+    }
+}
