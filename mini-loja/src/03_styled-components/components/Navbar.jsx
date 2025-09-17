@@ -37,6 +37,10 @@ const NavbarInput = styled.input `
     border-radius: 20px;
     background-color: var(--input-nav);
 
+    &::placeholder{
+        color: var(--color-text-placeholder);
+    }
+
     &:focus{
         outline: none;
     }    

@@ -29,6 +29,10 @@
     background-color: var(--input-nav);
 }
 
+.navbar input::placeholder{
+    color: var(--color-text-placeholder);
+}
+
 .navbar input:focus{
     outline: none;
 }
